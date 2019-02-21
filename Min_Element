@@ -1,0 +1,4 @@
+def _minarray_(a):
+	while len(a) != 1:
+		del(a[a.index(max(a))])
+	return(a)
